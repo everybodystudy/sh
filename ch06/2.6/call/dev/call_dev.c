@@ -14,7 +14,7 @@ int call_open (struct inode *inode, struct file *filp)
 {
     int num = MINOR(inode->i_rdev); 
 
-    printk( "call open -> minor : %d\n", num );
+    printk( "call open -> minor : %d\n", num );//zz
 
     return 0;
 }
