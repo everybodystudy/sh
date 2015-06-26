@@ -1,0 +1,1 @@
+cmd_/home/dy/device/ch04/2.6/base/test.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/dy/device/ch04/2.6/base/test.ko /home/dy/device/ch04/2.6/base/test.o /home/dy/device/ch04/2.6/base/test.mod.o
